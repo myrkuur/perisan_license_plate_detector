@@ -15,13 +15,13 @@ Training includes two phases:
     #### Sample of model predictions:
     ![alt text](https://github.com/myrkuur/perisan_license_plate_detector/blob/main/src/app/runs/test/exp2/test_batch0_pred.jpg)
     #### Model's confusion matrix:
-    ![alt text](src\app\runs\test\exp2\confusion_matrix.png)
+    ![alt text](https://github.com/myrkuur/perisan_license_plate_detector/blob/main/src/app/runs/test/exp2/confusion_matrix.png)
     #### Model's F1 curve:
-    ![alt text](src\app\runs\test\exp2\F1_curve.png)
+    ![alt text](https://github.com/myrkuur/perisan_license_plate_detector/blob/main/src/app/runs/test/exp2/F1_curve.png)
     #### Model's P Curve:
-    ![alt text](src\app\runs\test\exp2\P_curve.png)
+    ![alt text](https://github.com/myrkuur/perisan_license_plate_detector/blob/main/src/app/runs/test/exp2/P_curve.png)
     #### Model's PR curve:
-    ![alt text](src\app\runs\test\exp2\PR_curve.png)
+    ![alt text](https://github.com/myrkuur/perisan_license_plate_detector/blob/main/src/app/runs/test/exp2/PR_curve.png)
 2. Swin Transformer Evaluation:
     Classifier achieved `99` percent accuracy on test set with `F1_macro` of `~100` percent.
 ### Web App
