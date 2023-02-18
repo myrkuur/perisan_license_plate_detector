@@ -7,6 +7,14 @@ Training was done on google colab gpus, training notebooks can be found at `src/
 Training includes two phases:
 1. Detection of LP: For this, a pretrained `YoLoV7` was finetunned for `100` epochs and image size of `640x640` on images of cars and corresponding annotation of LP bounding box.
 2. Classifying digits inside LP: For this, a pretrained `Swin Transformer` was finetunned on augmented images of LP digits, it was trained for `4` epochs and kept `20 percent` for testing.
+
+    | epoch | train_loss | valid_loss | accuracy | F1(macro) | time |
+    | :---: | :---: | :---: | :---: | :---: | :---: |
+    | 0     | 0.216225   | 0.105166   | 0.966543 | 0.971339  | 15:39 |
+    | 1     | 0.119452   | 0.048642   | 0.983898 | 0.986345  | 15:38 |
+    | 2     | 0.066334   | 0.026631   | 0.992247 | 0.993589  | 15:37 |
+    | 3     | 0.048431   | 0.023184   | 0.993500 | 0.994747  | 15:36 |
+
 <hr>
 
 ### Testing And Evaluation
