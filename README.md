@@ -13,7 +13,7 @@ Training includes two phases:
 1. YoLoV7 Evaluation:
 
     #### Sample of model predictions:
-    ![alt text](src\app\runs\test\exp2\test_batch0_pred.jpg)
+    ![alt text](https://github.com/myrkuur/perisan_license_plate_detector/blob/main/src/app/runs/test/exp2/test_batch0_pred.jpg)
     #### Model's confusion matrix:
     ![alt text](src\app\runs\test\exp2\confusion_matrix.png)
     #### Model's F1 curve:
