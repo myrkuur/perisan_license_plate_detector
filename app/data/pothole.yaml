@@ -1,7 +1,0 @@
-train: ../dataset/images/train
-val: ../dataset/images/valid
-test: ../dataset/images/test
- 
-# Classes
-nc: 1  # number of classes
-names: ['پلاک']  # class names
