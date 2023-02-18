@@ -8,13 +8,6 @@ Training includes two phases:
 1. Detection of LP: For this, a pretrained `YoLoV7` was finetunned for `100` epochs and image size of `640x640` on images of cars and corresponding annotation of LP bounding box.
 2. Classifying digits inside LP: For this, a pretrained `Swin Transformer` was finetunned on augmented images of LP digits, it was trained for `4` epochs and kept `20 percent` for testing.
 
-    | epoch | train_loss | valid_loss | accuracy | F1(macro) | time |
-    | :---: | :---: | :---: | :---: | :---: | :---: |
-    | 0     | 0.216225   | 0.105166   | 0.966543 | 0.971339  | 15:39 |
-    | 1     | 0.119452   | 0.048642   | 0.983898 | 0.986345  | 15:38 |
-    | 2     | 0.066334   | 0.026631   | 0.992247 | 0.993589  | 15:37 |
-    | 3     | 0.048431   | 0.023184   | 0.993500 | 0.994747  | 15:36 |
-
 <hr>
 
 ### Testing And Evaluation
@@ -32,6 +25,13 @@ Training includes two phases:
     ![alt text](https://github.com/myrkuur/perisan_license_plate_detector/blob/main/src/app/runs/test/exp2/PR_curve.png)
 2. Swin Transformer Evaluation:
     Classifier achieved `99` percent accuracy on test set with `F1_macro` of `~100` percent.
+
+    | epoch | train_loss | valid_loss | accuracy | F1(macro) | time |
+    | :---: | :---: | :---: | :---: | :---: | :---: |
+    | 0     | 0.216225   | 0.105166   | 0.966543 | 0.971339  | 15:39 |
+    | 1     | 0.119452   | 0.048642   | 0.983898 | 0.986345  | 15:38 |
+    | 2     | 0.066334   | 0.026631   | 0.992247 | 0.993589  | 15:37 |
+    | 3     | 0.048431   | 0.023184   | 0.993500 | 0.994747  | 15:36 |
 ### Web App
 Using `FastApi` a web app was designed for more user friendly interactions. After running the app you can choose the file with image of a car and see the results, **Note:** that if you are running the app for the first time it will take a bit because it needs to download trained models from google drive.
 <hr><hr>
