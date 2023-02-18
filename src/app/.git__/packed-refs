@@ -1,0 +1,11 @@
+# pack-refs with: peeled fully-peeled sorted 
+4aaf3c451b1704706b61a658d954c4389511d5d0 refs/remotes/origin/check_tensor_cores
+8df4190fe6463f72e466c162dd95b5521d237e6a refs/remotes/origin/darknet
+2fdc7f14395f6532ad05fb3e6970150a6a83d290 refs/remotes/origin/main
+4ebeeca4050b0aa5ca165deebc7536abd722268b refs/remotes/origin/mask
+cad7acac832fcd4a9c2e09e773050a57761e22b9 refs/remotes/origin/pose
+88e9436becdf4661fa2b14b3f176704411e0e808 refs/remotes/origin/pytorch
+f2439f894c32a5ad09dd099aae0586ff01080301 refs/remotes/origin/u5
+9c489dbf6d4e2f780952e4e8a4756f1bcbd00123 refs/remotes/origin/u6
+44f30af0daccb1a3baecc5d80eae22948516c579 refs/remotes/origin/u7
+9a00c173a44bfcf3a58cc2a60e37deb6a1fb9e03 refs/tags/v0.1
